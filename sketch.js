@@ -1,12 +1,12 @@
 function setup() {
     createCanvas(700, 700);
-    background("white");
+    background("black");
   }
   
   function draw() {
   
-    stroke("black");
-    fill("black");
+    stroke("white");
+    fill("white");
     frameRate(300)
     if (mouseIsPressed) {
       circle(mouseX, mouseY, 25);
